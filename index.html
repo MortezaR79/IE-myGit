@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- container for card_container div to center it on screen -->
+    <div class="container">
+      <!-- container for left card info and right card form -->
+      <div class="cards_container">
+        <!-- left card -->
+        <div class="user_info">
+          <!-- img,info and bio container  -->
+          <div class="image_container">
+            <!-- to display image and info in a row  -->
+            <div class="img_para">
+              <img class="image" src="./images/download.png" alt="img" />
+              <div class="info">
+                <p class="hide" id="name_info"></p>
+                <p class="hide" id="blog"></p>
+                <p class="hide" id="location"></p>
+                <p class="hide" id="language"></p>
+              </div>
+            </div>
+            <p class="bio hide"></p>
+          </div>
+        </div>
+        <!-- right card  -->
+        <div class="form_container">
+          <form class="form_class">
+            <label class="form_element" for="name">Name</label>
+            <input class="form_element nameInput" type="text" id="name" />
+            <button class="btn form_element">submit</button>
+            <p class="alert hide">invalid user</p>
+            <p class="alert2 hide"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

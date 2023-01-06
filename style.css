@@ -1,0 +1,98 @@
+
+body{
+    background: url("./images/wp3082316.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 0px;
+    margin: 0px;
+}
+/* to center cards_container */
+.container{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* to display left card and right card in a row */
+.cards_container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    border: solid black 2px;
+    background-color: lightgray;
+    opacity: 0.95;
+}
+/* left card styling */
+.user_info{
+    padding: 20px;
+    margin: 20px;
+    border: solid black 2px;
+    border-radius: 5%;
+    background-color: lightgrey;
+}
+/* right card styling */
+.form_class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 100px;
+    border: solid black 2px;
+    background-color: lightgrey;
+    border-radius: 5%;
+    height: 240px;
+}
+
+.form_element{
+    margin: 8px;
+ }
+
+.image{
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+}
+
+.img_para{
+    display: flex;
+}
+/* to display image and info in a row */
+.image_container{
+    display: 1 1flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 320px;
+    min-height: 240px;
+}
+.info{
+    margin-left: 20px;
+}
+.bio{
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.alert{
+    color: red;
+}
+
+.alert2{
+    color: green;
+}
+
+
+
+
+
